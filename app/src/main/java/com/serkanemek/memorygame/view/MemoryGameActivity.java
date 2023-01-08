@@ -556,7 +556,6 @@ public class MemoryGameActivity extends AppCompatActivity {
                 textView_level.setTextColor(Color.YELLOW);
                 textView_level.setText("  Coins: " + sharedPForEnergy.getCoinsData(getApplicationContext()));
                 sharedPForAdvAndTotalQuestionCounter.updateMemoryGameCorrectAnswersData(getApplicationContext(),1);
-                sharedPForAdvAndTotalQuestionCounter.updateAdvertisementCounterData(getApplicationContext(),1);
 
                 if(level == 30){
                     AlertDialog.Builder builder =new AlertDialog.Builder(this);
